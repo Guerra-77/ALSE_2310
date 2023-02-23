@@ -27,12 +27,12 @@ double distancia( const Punto &a, const Punto &b ){
   return sqrt( x * x  + y * y );
 }
 
-/*
+
 double longitud(Linea a){
   double a = distancia( a.a, a.b) ;
   return a;
 }
-*/
+
 int main(int argc, char** argv){
   Punto a, b;
   double dist;
