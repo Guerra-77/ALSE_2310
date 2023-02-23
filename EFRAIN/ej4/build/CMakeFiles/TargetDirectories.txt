@@ -1,0 +1,3 @@
+/home/efrain/documentos/ALSE_2310/EFRAIN/ej4/build/CMakeFiles/rebuild_cache.dir
+/home/efrain/documentos/ALSE_2310/EFRAIN/ej4/build/CMakeFiles/ej4.dir
+/home/efrain/documentos/ALSE_2310/EFRAIN/ej4/build/CMakeFiles/edit_cache.dir
