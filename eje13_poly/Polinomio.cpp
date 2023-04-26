@@ -226,9 +226,25 @@ void Polinomio::simplificar(){
 }
 
 bool Polinomio::ordenar(){
+    Termino *t1, *t2, *temp;
+    int cont = 1, p;
+    t1 = _polCabeza;
+    while (cont != 0){
+        cont = 0;
+        while (t1 != nullptr ){
+            t2 = t1 -> getsiguiente();
+            if (t2 != nullptr && t1->getP() < t2->getP()){
+                temp = t1;
+                t1 = t2;
+                t2 = temp;
+                cont++;
+            }
+            t1 = t2;
+        }
+    }
+    
     return true;
 }
-
 std::string Polinomio::getString() {
     //cout << "Entrando a getString()" << endl;
     stringstream stream;
